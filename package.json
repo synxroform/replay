@@ -1,0 +1,19 @@
+{
+  "name": "replay",
+  "version": "1.0.0",
+  "description": "dzkrd ui/ux portfolio",
+  "main": "replay.jsx",
+  "scripts": {
+    "serve": "esbuild source/replay.jsx --bundle --format=cjs --minify --outdir=bundle --servedir=. --watch --serve=80",
+    "build": "esbuild source/replay.jsx --bundle --format=cjs --minify --outdir=bundle --metafile=meta.json --tree-shaking=true"
+  },
+  "author": "dzkrd",
+  "license": "ISC",
+  "dependencies": {
+    "alea": "^1.0.1",
+    "esbuild": "^0.19.11",
+    "mathjs": "^12.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

@@ -1,0 +1,9 @@
+.readout {
+    align-items: center;
+}
+
+.label {
+    color: var(--fg);
+    font-family: 'Minim';
+    font-size: calc(var(--mm) / 2);
+}
